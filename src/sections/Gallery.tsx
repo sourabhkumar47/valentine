@@ -31,7 +31,7 @@ const images: GalleryImage[] = [
   {
     id: 5,
     src: '/gallery-3.jpg',
-    caption: 'Dancing like nobody is watching',
+    caption: 'Doning ehehhehe',
   },
   {
     id: 6,

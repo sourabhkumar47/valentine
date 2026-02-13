@@ -12,66 +12,67 @@ interface Reason {
 const reasons: Reason[] = [
   {
     id: 1,
-    text: 'Your smile that lights up every room',
+    text: 'Your smile that lights up...',
     icon: <Smile className="w-6 h-6" />,
     hiddenMessage: 'Your smile is the first thing I think of every morning 💕',
     rotation: -2,
   },
   {
     id: 2,
-    text: 'The way you laugh at my terrible jokes',
+    text: 'The way you laugh ehehehheheh muahhhh',
     icon: <MessageCircle className="w-6 h-6" />,
-    hiddenMessage: 'Even when no one else gets it, you always do 😄',
+    hiddenMessage: 'the ehehehehehe ehehhehehheh  😄',
     rotation: 1,
   },
   {
     id: 3,
-    text: 'Your kindness to strangers',
-    icon: <HeartHandshake className="w-6 h-6" />,
-    hiddenMessage: 'Your heart is too big for this world 🌍',
+    text: 'The way you pretend to be angry but can’t stay for long',
+    icon: <Heart className="w-6 h-6" />,
+    hiddenMessage: 'You try very hard but you melt in 2 minutes 😌',
     rotation: -1,
   },
   {
     id: 4,
-    text: 'How you always know what I need',
-    icon: <Sparkles className="w-6 h-6" />,
-    hiddenMessage: 'It\'s like you can read my mind ✨',
+    text: 'Your random late night talks',
+    icon: <Heart className="w-6 h-6" />,
+    hiddenMessage: 'Those talks make my day feel complete 🌙',
     rotation: 2,
   },
   {
     id: 5,
-    text: 'Your strength when things get hard',
-    icon: <Shield className="w-6 h-6" />,
-    hiddenMessage: 'You make me want to be stronger too 💪',
-    rotation: -1,
+    text: 'How you remember small small things about me',
+    icon: <Heart className="w-6 h-6" />,
+    hiddenMessage: 'Even things I forget, you remember ✨',
+    rotation: -3,
   },
   {
     id: 6,
-    text: 'The way you dance when no one\'s watching',
-    icon: <Music className="w-6 h-6" />,
-    hiddenMessage: 'Your joy is absolutely infectious 🎵',
+    text: 'Your cute jealousy',
+    icon: <Sparkles className="w-6 h-6" />,
+    hiddenMessage: 'You never say it directly but I always know 😄',
     rotation: 1,
   },
   {
     id: 7,
-    text: 'Your passion for what you love',
-    icon: <Sun className="w-6 h-6" />,
-    hiddenMessage: 'Your eyes light up and it\'s magical ☀️',
+    text: 'The comfort I feel when I talk to you',
+    icon: <Heart className="w-6 h-6" />,
+    hiddenMessage: 'You feel like home, not just a person 🤍',
     rotation: -2,
   },
   {
     id: 8,
-    text: 'How you make ordinary moments magical',
-    icon: <Sparkle className="w-6 h-6" />,
-    hiddenMessage: 'Every day with you feels like a fairytale 🏰',
-    rotation: 2,
+    text: 'Being yourself with me',
+    icon: <Heart className="w-6 h-6" />,
+    hiddenMessage: 'No filters, no acting — just you and that’s my favorite 💫',
+    rotation: 0,
   },
+
   {
     id: 9,
-    text: 'Your beautiful, caring heart',
-    icon: <Home className="w-6 h-6" />,
-    hiddenMessage: 'You are my home, my everything 🏠',
-    rotation: -1,
+    text: 'How you say my name',
+    icon: <Heart className="w-6 h-6" />,
+    hiddenMessage: 'Normal name, but from you it sounds different ❤️',
+    rotation: 2,
   },
 ];
 
@@ -142,7 +143,7 @@ const Reasons = () => {
     >
       {/* Animated Gradient Background */}
       <div className="absolute inset-0">
-        <div 
+        <div
           className="absolute inset-0 animate-gradient-shift"
           style={{
             background: 'linear-gradient(-45deg, #fff5f7, #ffe4ec, #f5e6fa, #e8d5f2)',
@@ -156,7 +157,7 @@ const Reasons = () => {
         <div className="absolute top-10 right-20 w-40 h-40 bg-pink-primary/30 rounded-full blur-3xl animate-morph" />
         <div className="absolute bottom-20 left-10 w-60 h-60 bg-lavender/40 rounded-full blur-3xl animate-morph" style={{ animationDelay: '2s' }} />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-pink-light/30 rounded-full blur-3xl animate-morph" style={{ animationDelay: '4s' }} />
-        
+
         {/* Floating hearts */}
         <Heart className="absolute top-20 left-20 w-8 h-8 text-pink-primary/40 fill-pink-light/40 animate-float-slow" />
         <Heart className="absolute bottom-40 right-24 w-6 h-6 text-lavender-dark/40 fill-lavender/40 animate-float" style={{ animationDelay: '1s' }} />
@@ -167,36 +168,32 @@ const Reasons = () => {
         {/* Section Header */}
         <div className="text-center mb-16 sm:mb-20">
           <div
-            className={`inline-flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full mb-6 transition-all duration-700 ${
-              isTitleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
-            }`}
+            className={`inline-flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full mb-6 transition-all duration-700 ${isTitleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
+              }`}
           >
             <Heart className="w-4 h-4 text-pink-deep fill-pink-primary animate-pulse-heart" />
             <span className="text-sm text-gray-600 font-medium">Countless Reasons</span>
           </div>
 
           <h2
-            className={`text-5xl sm:text-6xl md:text-7xl font-script bg-gradient-to-r from-pink-hot via-pink-deep to-mauve bg-clip-text text-transparent mb-4 transition-all duration-700 ${
-              isTitleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-            }`}
+            className={`text-5xl sm:text-6xl md:text-7xl font-script bg-gradient-to-r from-pink-hot via-pink-deep to-mauve bg-clip-text text-transparent mb-4 transition-all duration-700 ${isTitleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+              }`}
             style={{ transitionDelay: '100ms' }}
           >
             Reasons I Love You
           </h2>
 
           <p
-            className={`text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto transition-all duration-700 ${
-              isTitleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
-            }`}
+            className={`text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto transition-all duration-700 ${isTitleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
+              }`}
             style={{ transitionDelay: '200ms' }}
           >
             For the million little things that make you, you
           </p>
 
           <div
-            className={`flex items-center justify-center gap-3 mt-6 transition-all duration-700 ${
-              isTitleVisible ? 'opacity-100' : 'opacity-0'
-            }`}
+            className={`flex items-center justify-center gap-3 mt-6 transition-all duration-700 ${isTitleVisible ? 'opacity-100' : 'opacity-0'
+              }`}
             style={{ transitionDelay: '300ms' }}
           >
             <div className="w-12 h-px bg-gradient-to-r from-transparent to-pink-primary" />
@@ -215,9 +212,8 @@ const Reasons = () => {
               <div
                 key={reason.id}
                 ref={(el) => { cardRefs.current[index] = el; }}
-                className={`relative perspective-1000 transition-all duration-700 ${
-                  isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
-                }`}
+                className={`relative perspective-1000 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
+                  }`}
                 style={{
                   transitionDelay: `${index * 100}ms`,
                   transform: isVisible ? `rotate(${reason.rotation}deg)` : undefined,
@@ -234,7 +230,7 @@ const Reasons = () => {
                   {/* Front of Card */}
                   <div
                     className="relative bg-white rounded-2xl p-6 sm:p-8 shadow-romantic hover:shadow-romantic-lg transition-all duration-500 hover:-translate-y-2 group"
-                    style={{ 
+                    style={{
                       backfaceVisibility: 'hidden',
                       transform: 'rotateY(0deg)',
                     }}
@@ -277,12 +273,12 @@ const Reasons = () => {
                         backgroundSize: '20px 20px',
                       }} />
                     </div>
-                    
+
                     <Heart className="w-12 h-12 text-white fill-white/40 mb-4 animate-pulse-heart relative z-10" />
                     <p className="text-white text-lg leading-relaxed font-semibold relative z-10 drop-shadow-md">
                       {reason.hiddenMessage}
                     </p>
-                    
+
                     {/* Close hint */}
                     <div className="mt-4 text-white/70 text-sm relative z-10">
                       Click to flip back
@@ -296,9 +292,8 @@ const Reasons = () => {
 
         {/* Bottom Message */}
         <div
-          className={`text-center mt-16 transition-all duration-700 ${
-            visibleCards.size >= 3 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-          }`}
+          className={`text-center mt-16 transition-all duration-700 ${visibleCards.size >= 3 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+            }`}
         >
           <p className="text-gray-500 italic text-lg">
             ...and a million more that words cannot express
