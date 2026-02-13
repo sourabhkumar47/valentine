@@ -263,7 +263,7 @@ const Hero = () => {
         }}
       >
         {/* Opening Line with Glow */}
-        <div
+        {/* <div
           className={`mb-8 transition-all duration-1000 ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
           }`}
@@ -274,7 +274,7 @@ const Hero = () => {
             For the one who makes my ordinary days extraordinary
             <Sparkles className="w-4 h-4 inline ml-2" />
           </span>
-        </div>
+        </div> */}
 
         {/* Main Heading with 3D Text Effect */}
         <h1 className="mb-10 preserve-3d">
@@ -382,7 +382,7 @@ const Hero = () => {
           onClick={scrollToStory}
           className="flex flex-col items-center gap-2 text-pink-deep hover:text-pink-hot transition-colors duration-300 group"
         >
-          <span className="text-sm font-medium">Scroll to explore</span>
+          <span className="text-sm font-medium"></span>
           <div className="w-10 h-10 rounded-full bg-white/50 backdrop-blur-sm flex items-center justify-center group-hover:bg-white/80 transition-colors">
             <ChevronDown className="w-6 h-6 animate-bounce" />
           </div>

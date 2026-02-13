@@ -14,9 +14,9 @@ const moments: StoryMoment[] = [
   {
     id: 1,
     title: 'The Day We Met',
-    date: 'June 15, 2022',
+    date: 'Sep 19, 2025',
     description:
-      'In a crowded café, your smile found me like a lighthouse in the fog. I knew in that instant, my life would never be the same. The way the sunlight hit your face, the sound of your laughter—it all felt like coming home.',
+      'woo random call and mai aa raha hu kehna and setting up our first meetup, both blushig ehheehehe, mai scooty and you while sitting, your blue shirt and you with headphone, than going to park and out first ice cream date....',
     image: '/story-1.jpg',
     icon: <Heart className="w-5 h-5" />,
   },
@@ -25,7 +25,7 @@ const moments: StoryMoment[] = [
     title: 'Our First Conversation',
     date: 'June 22, 2022',
     description:
-      'Hours passed like minutes. We talked about everything and nothing, and I hung on every word like it was poetry. You spoke with such passion, such depth—I found myself wanting to know every story, every dream, every fear.',
+      'Mera reply reh gya tha "I love you" ka',
     image: '/story-2.jpg',
     icon: <MessageCircle className="w-5 h-5" />,
   },
@@ -34,7 +34,7 @@ const moments: StoryMoment[] = [
     title: 'The First "I Love You"',
     date: 'August 3, 2022',
     description:
-      'Under a sky full of stars, those three words changed everything. I meant them with every fiber of my being, and I mean them even more today. The world seemed to pause, and in that moment, it was just us and forever.',
+      '""I loveee youuu nn" and my reply with flowerrrrr',
     image: '/story-3.jpg',
     icon: <Star className="w-5 h-5" />,
   },
@@ -43,7 +43,7 @@ const moments: StoryMoment[] = [
     title: 'Countless Memories',
     date: 'Every Day Since',
     description:
-      'Every laugh, every tear, every quiet moment together—they\'ve woven themselves into the tapestry of us. Each day with you is a new adventure, a new reason to be grateful, a new page in our beautiful story.',
+      'Every laugh, every tear, every quiet moment together - they\'ve woven themselves into the tapestry of us. Each day with you is a new adventure, a new reason to be grateful, a new page in our beautiful story.',
     image: '/story-4.jpg',
     icon: <Infinity className="w-5 h-5" />,
   },
