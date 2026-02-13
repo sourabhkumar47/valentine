@@ -197,7 +197,7 @@ const Reasons = () => {
             style={{ transitionDelay: '300ms' }}
           >
             <div className="w-12 h-px bg-gradient-to-r from-transparent to-pink-primary" />
-            <Sparkles className="w-4 h-4 text-pink-primary animate-sparkle" />
+            <Heart className="w-4 h-4 text-pink-primary animate-sparkle" />
             <div className="w-12 h-px bg-gradient-to-l from-transparent to-pink-primary" />
           </div>
         </div>
@@ -252,7 +252,7 @@ const Reasons = () => {
 
                     {/* Hint */}
                     <div className="mt-4 flex items-center gap-2 text-sm text-pink-deep/70">
-                      <Sparkles className="w-4 h-4" />
+                      <Heart className="w-4 h-4" />
                       <span>Click to reveal</span>
                     </div>
                   </div>
