@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { Heart, Sparkles, Smile, MessageCircle, Sun, Shield, Music, Sparkle, Home, HeartHandshake } from 'lucide-react';
+import { Heart} from 'lucide-react';
 
 interface Reason {
   id: number;
@@ -13,56 +13,56 @@ const reasons: Reason[] = [
   {
     id: 1,
     text: 'Your smile that lights up...',
-    icon: <Smile className="w-6 h-6" />,
+    icon: <Heart className="w-6 h-6" />,
     hiddenMessage: 'Your smile is the first thing I think of every morning 💕',
     rotation: -2,
   },
   {
     id: 2,
     text: 'The way you laugh ehehehheheh muahhhh',
-    icon: <MessageCircle className="w-6 h-6" />,
+    icon: <Heart className="w-6 h-6" />,
     hiddenMessage: 'the ehehehehehe ehehhehehheh  😄',
     rotation: 1,
   },
   {
     id: 3,
     text: 'The way you pretend to be angry but can’t stay for long',
-    icon: <Sun className="w-6 h-6" />,
+    icon: <Heart className="w-6 h-6" />,
     hiddenMessage: 'You try very hard but you melt in 2 minutes 😌',
     rotation: -1,
   },
   {
     id: 4,
     text: 'Your random late night talks',
-    icon: <Shield className="w-6 h-6" />,
+    icon: <Heart className="w-6 h-6" />,
     hiddenMessage: 'Those talks make my day feel complete 🌙',
     rotation: 2,
   },
   {
     id: 5,
     text: 'How you remember small small things about me',
-    icon: <Music className="w-6 h-6" />,
+    icon: <Heart className="w-6 h-6" />,
     hiddenMessage: 'Even things I forget, you remember ✨',
     rotation: -3,
   },
   {
     id: 6,
     text: 'Your cute jealousy',
-    icon: <Sparkle className="w-6 h-6" />,
+    icon: <Heart className="w-6 h-6" />,
     hiddenMessage: 'You never say it directly but I always know 😄',
     rotation: 1,
   },
   {
     id: 7,
     text: 'The comfort I feel when I talk to you',
-    icon: <Home  className="w-6 h-6" />,
+    icon: <Heart  className="w-6 h-6" />,
     hiddenMessage: 'You feel like home, not just a person 🤍',
     rotation: -2,
   },
   {
     id: 8,
     text: 'Being yourself with me',
-    icon: <HeartHandshake className="w-6 h-6" />,
+    icon: <Heart className="w-6 h-6" />,
     hiddenMessage: 'No filters, no acting — just you and that’s my favorite 💫',
     rotation: 0,
   },
