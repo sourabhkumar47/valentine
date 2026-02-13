@@ -38,13 +38,19 @@ const LoveLetter = () => {
   }, [showLetter]);
 
   const letterParagraphs = [
-    "As I sit down to write this, I'm overwhelmed by how much you mean to me. Words feel insufficient to capture the depth of what I feel, but I'll try anyway—because you deserve to know.",
-    "You came into my life like a sunrise—slowly at first, then all at once, filling everything with light and warmth. Before you, I didn't know that love could feel this safe, this sure, this much like home.",
-    "I love the way you see the world—with wonder and kindness and hope. I love how you make me want to be better, not by asking, but simply by being the incredible person you are. I love your strength, your softness, your beautiful heart.",
-    "Every day with you is a gift I don't take for granted. The way your hand fits in mine, the sound of your laughter, the comfort of your presence—these are the things that make my life complete.",
-    "I promise to keep choosing you, every single day. Through the easy moments and the hard ones, through laughter and tears, through all the seasons of life.",
-    "You are my best friend, my greatest adventure, and my favorite person. I love you more than yesterday, and I'll love you even more tomorrow.",
-  ];
+  "Sep 19, 2025 - The Day We Met. It started with a random call and me saying 'mai aa raha hu'. We both were trying to act normal but were clearly blushing.",
+
+  "You were sitting there in your blue shirt with headphones, and I came on my scooty pretending I wasn’t looking at you again and again.",
+
+  "Then we walked, went to the park, and had our first ice-cream date. Nothing fancy, just simple - but it felt special.",
+
+  "After that, love became only things for me - waiting for your messages, your laugh, teasing you, your fake anger, and comfortable silence on calls.",
+
+  "14 February is just a day. What I feel for you is not for one date, I want to give you the same love and effort every day.",
+
+  "Our story started quietly — just a call, a ride, and two people blushing - but I would still choose that moment and you, again and again."
+];
+
 
   return (
     <section
@@ -150,7 +156,7 @@ const LoveLetter = () => {
                 }`}
               >
                 <p className="text-2xl sm:text-3xl font-script bg-gradient-to-r from-pink-deep to-pink-hot bg-clip-text text-transparent">
-                  My Dearest Love,
+                  My Dearest Love Anshikaaaaaaaaaa,
                 </p>
               </div>
 
@@ -179,7 +185,7 @@ const LoveLetter = () => {
                   Forever Yours,
                 </p>
                 <p className="text-gray-600 italic">
-                  Your Loving Partner
+                  Your Loving Partner Sourabh
                 </p>
               </div>
 

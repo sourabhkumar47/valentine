@@ -26,11 +26,11 @@ const quizQuestions: QuizQuestion[] = [
   {
     question: 'Where did we first meet?',
     options: ['At a café', 'At the park', 'Through friends', 'At work'],
-    correct: 0,
+    correct: 1,
   },
   {
     question: 'What was our first date?',
-    options: ['Dinner and movie', 'Coffee date', 'Beach walk', 'Concert'],
+    options: ['Dinner and movie', 'Ice Cream date', 'Beach walk', 'Concert'],
     correct: 1,
   },
   {

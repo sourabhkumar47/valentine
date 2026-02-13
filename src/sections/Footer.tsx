@@ -128,7 +128,7 @@ const Footer = () => {
           <p className="text-2xl sm:text-3xl font-script bg-gradient-to-r from-pink-deep to-pink-hot bg-clip-text text-transparent mb-2">
             Happy Valentine's Day
           </p>
-          <p className="text-lg text-gray-600">my love</p>
+          <p className="text-lg text-gray-600">my love....myyyy Anshikaaa</p>
         </div>
 
         {/* Signature */}
@@ -156,7 +156,7 @@ const Footer = () => {
           <div className="inline-flex items-center gap-2 px-5 py-2.5 bg-white/80 backdrop-blur-sm rounded-full shadow-romantic animate-pulse-glow">
             <Calendar className="w-4 h-4 text-pink-deep" />
             <span className="text-sm font-medium text-gray-600">
-              February 14, 2026
+              February 14, 2026 no Not only 14 Feb — always
             </span>
           </div>
         </div>
@@ -185,7 +185,7 @@ const Footer = () => {
           <p className="text-sm text-gray-400">
             Made with{' '}
             <Heart className="w-4 h-4 inline text-pink-primary fill-pink-light animate-pulse-heart" />{' '}
-            for you
+            for you by Sourabh
           </p>
         </div>
       </div>
