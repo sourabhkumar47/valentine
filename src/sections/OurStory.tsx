@@ -23,7 +23,7 @@ const moments: StoryMoment[] = [
   {
     id: 2,
     title: 'Our First Conversation',
-    date: 'June 22, 2022',
+    date: 'June 22, 2025',
     description:
       'Mera reply reh gya tha "I love you" ka',
     image: '/story-2.jpg',
@@ -32,7 +32,7 @@ const moments: StoryMoment[] = [
   {
     id: 3,
     title: 'The First "I Love You"',
-    date: 'August 3, 2022',
+    date: 'Sep 11, 2025',
     description:
       '""I loveee youuu nn" and my reply with flowerrrrr',
     image: '/story-3.jpg',
