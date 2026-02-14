@@ -9,7 +9,7 @@ const MusicPlayer = () => {
 
   useEffect(() => {
     // Create audio element with a romantic instrumental
-    audioRef.current = new Audio('https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3');
+    audioRef.current = new Audio('/music/our-song.mp3');
     audioRef.current.loop = true;
     audioRef.current.volume = 0.3;
 
